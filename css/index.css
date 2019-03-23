@@ -1,0 +1,157 @@
+header{
+  background-color: #5d7188;
+  text-align: center;
+  margin: 1%;
+  padding: 1%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-style: dotted;
+  box-shadow: 5px 5px black;
+
+}
+.imag{
+  width: 10%;
+}
+.addresume{
+  border-style: groove;
+  text-align: center;
+  border-radius: 30px;
+}
+.card{
+
+  border-style: groove;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+img{
+  width: 20%;
+}
+.child{
+  text-align: center;
+  width: 30%;
+  border-style: dotted;border-radius: 30px;
+  margin-left: 2%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+
+  background-color: #62fde3b0;
+}
+body{
+url(http://4designer.t7yb.net/files/20140222/Colorful-and-creative-background-vector-material-57687.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Making mobile Mode */
+@media  screen and (min-width:360px) and (max-width:640px) {
+  body{
+    background-image: url(http://4designer.t7yb.net/files/20140222/Colorful-and-creative-background-vector-material-57687.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header{
+    background-color: #5d7188;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: dotted;
+    box-shadow: 5px 5px black;
+
+  }
+  .imag{
+    width: 10%;
+  }
+  .addresume{
+    border-style: groove;
+    text-align: center;
+    border-radius: 30px;
+  }
+  .card{
+
+    border-style: groove;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+
+  }
+  img{
+    width: 50%;
+  }
+  .child{
+    text-align: center;
+    width:40%;
+    border-style: dotted;border-radius: 30px;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding-bottom: 1%;
+
+    background-color: #62fde3b0;
+  }
+
+}
+
+/* Making Tablet Mode */
+@media  screen and (min-width:641px) and (max-width:1024px) {
+/* Changing backgroundcolor */
+
+body{
+  background-image: url(http://4designer.t7yb.net/files/20140222/Colorful-and-creative-background-vector-material-57687.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-around;
+}
+header{
+  background-color: #5d7188;
+  text-align: center;
+  margin: 1%;
+  padding: 1%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-style: dotted;
+  box-shadow: 5px 5px black;
+
+}
+.imag{
+  width: 10%;
+}
+.addresume{
+  border-style: groove;
+  text-align: center;
+  border-radius: 30px;
+}
+.card{
+
+  border-style: groove;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;justify-content: space-around;
+
+}
+img{
+  width: 20%;
+}
+.child{
+  text-align: center;
+  width:40%;
+  border-style: dotted;border-radius: 30px;
+  margin-left: 2%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+
+  background-color: #62fde3b0;
+}
+
+}
+
+}

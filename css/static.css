@@ -1,0 +1,41 @@
+img{
+  width: 100%;
+}
+.left{
+  text-align: center;
+  border-radius: 50px;
+  border-style: dotted;
+  width: 30%;
+  background-color: #00ff3ba1;
+}
+.right{
+  width: 65%;
+}
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+table{
+  radius:1px;
+  width: 100%;
+  text-align: center;
+}
+.right{
+  padding-left: 2%;
+  border-radius: 50px;
+  border-style: dotted;
+  width: 65%;
+  margin-left: 2%;
+  background-color: #00a8ffa1;
+}
+
+/* Making mobile Mode */
+/* Changing backgroundcolor */
+@media  screen and (min-width:360px) and (max-width:640px) {
+  body{
+    background-color: red;
+  0}
+  a.hover{
+    background-color: pink;
+  }
+}

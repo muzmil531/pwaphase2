@@ -1,0 +1,214 @@
+#mainbody{
+  background-position: center;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+body{
+    background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/250180/f271b84089539927dc09d22bee615285512a8f29.jpg);
+}
+input{
+  width: 50%;
+}
+#detailsbody{
+  background-color: #719bea96;;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 50px;
+  border-style: groove;
+  padding-bottom: 5%;
+}
+#head1{
+  background-color: #763bff;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  border-style: groove;
+  border-color: yellow;
+  width: 90%;margin-left: 5%;
+}
+#experience{
+  width: 90%;
+}
+#objective{
+  width: 95%;
+}
+#submit{
+  color: black;
+  background-color: #72ff98;
+  border-style: groove;
+  font-size: 20px;
+  border-radius: 20px;width: 10%;
+}
+.buttonalingment{
+  text-align: center;
+}
+.main{
+  margin-left: 2%;
+  display: flex;
+}
+.hd{
+  color: white;
+}
+.divisions{
+  border-style: groove;border-radius: 30px;
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 2%;
+  padding-left: 2%;
+  padding-bottom: 1%;
+}
+.carrier{
+  margin-left: 2%;
+}
+.gopage{
+  text-align: right;
+  margin-right: 5px;
+  color: white;
+}
+
+@media  screen and (min-width:360px) and (max-width:640px) {
+  #mainbody{
+    background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/250180/f271b84089539927dc09d22bee615285512a8f29.jpg);
+    background-position: center;
+
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+  #detailsbody{
+    background-color: #719bea96;;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+    border-style: groove;
+    padding-bottom: 5%;
+  }
+  #head1{
+    background-color: #763bff;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    border-style: groove;
+    border-color: yellow;
+    width: 90%;margin-left: 5%;
+  }
+  #experience{
+    width: 90%;
+  }
+  #objective{
+    width: 95%;
+  }
+  #submit{
+    color: black;
+    background-color: #72ff98;
+    border-style: groove;
+    font-size: 20px;
+    border-radius: 20px;width: 50%;
+  }
+  .buttonalingment{
+    text-align: center;
+  }
+  .main{
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+  }
+  .hd{
+    color: white;
+  }
+  .divisions{
+    border-style: groove;
+    border-radius: 30px;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-left: 4%;
+    padding-bottom: 5%;
+  }
+  .carrier{
+    margin-left: 2%;
+  }
+  .gopage{
+    text-align: right;
+    margin-right: 5px;
+    color: white;
+  }
+}
+@media  screen and (min-width:641px) and (max-width:1024px) {
+  #mainbody{
+    background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/250180/f271b84089539927dc09d22bee615285512a8f29.jpg);
+    background-position: center;
+
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+  input{
+    width: 90%;
+  }
+
+  #detailsbody{
+    background-color: #719bea96;;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+    border-style: groove;
+    padding-bottom: 5%;
+  }
+  #head1{
+    background-color: #763bff;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    border-style: groove;
+    border-color: yellow;
+    width: 90%;margin-left: 5%;
+  }
+  #experience{
+    width: 90%;
+  }
+  #objective{
+    width: 95%;
+  }
+  #submit{
+    color: black;
+    background-color: #72ff98;
+    border-style: groove;
+    font-size: 20px;
+    border-radius: 20px;width: 50%;
+  }
+  .buttonalingment{
+    text-align: center;
+  }
+  .main{
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+  }
+  .hd{
+    color: white;
+  }
+  .divisions{
+    border-style: groove;
+    border-radius: 30px;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-left: 4%;
+    padding-bottom: 5%;
+  }
+  .carrier{
+    margin-left: 2%;
+  }
+  .gopage{
+    text-align: right;
+    margin-right: 5px;
+    color: white;
+  }
+}
+
+
+}
